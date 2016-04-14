@@ -1,18 +1,22 @@
 echo "Get the dependencies"
 sleep 3
-apt-get -y remove ffmpeg x264 libav-tools libvpx-dev libx264-dev
-apt-get update -y
 apt-get install sudo -y
-apt-get install screen -y
-sudo add-apt-repository ppa:mc3man/trusty-media -y
+sudo apt-get install software-properties-common python-software-properties -y
 
 
 # install ffmpeg
 echo "install ffmpeg"
 sleep 3
+sudo add-apt-repository ppa:mc3man/trusty-media -y
+sudo apt-get update -y
 sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
 ffmpeg --version
 sleep 3
+
+
+apt-get install screen -y
+
+
 # youtube-upload
 
 echo "youtube-upload"
