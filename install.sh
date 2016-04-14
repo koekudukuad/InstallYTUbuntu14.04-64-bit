@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Get the dependencies"
 sleep 3
 apt-get install sudo -y
