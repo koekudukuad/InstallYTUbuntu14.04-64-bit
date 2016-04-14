@@ -2,6 +2,7 @@
 
 echo "Get the dependencies"
 sleep 3
+apt-get update -y
 apt-get install sudo -y
 apt-get install software-properties-common -y
 
@@ -10,7 +11,7 @@ apt-get install software-properties-common -y
 echo "install ffmpeg"
 sleep 3
 sudo add-apt-repository ppa:mc3man/trusty-media -y
-sudo apt-get update -y
+apt-get update -y
 sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
 ffmpeg --version
 sleep 3
