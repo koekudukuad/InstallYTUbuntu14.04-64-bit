@@ -3,7 +3,7 @@
 echo "Get the dependencies"
 sleep 3
 apt-get install sudo -y
-sudo apt-get install software-properties-common python-software-properties -y
+apt-get install software-properties-common -y
 
 
 # install ffmpeg
