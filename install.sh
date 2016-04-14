@@ -1,10 +1,11 @@
 echo "Get the dependencies"
 sleep 3
 apt-get -y remove ffmpeg x264 libav-tools libvpx-dev libx264-dev
-sudo add-apt-repository ppa:mc3man/trusty-media -y
 apt-get update -y
 apt-get install sudo -y
 apt-get install screen -y
+sudo add-apt-repository ppa:mc3man/trusty-media -y
+
 
 # install ffmpeg
 echo "install ffmpeg"
