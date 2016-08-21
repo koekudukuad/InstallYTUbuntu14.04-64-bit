@@ -39,15 +39,10 @@ sleep 3
 # youtube-dl
 echo "youtube-dl"
 sleep 3
-apt-get install curl -y
-curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-chmod a+x /usr/local/bin/youtube-dl
-youtube-dl
-sudo rm /usr/bin/youtube-dl  # or apt-get remove -y youtube-dl
 sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
 sudo chmod a+x /usr/local/bin/youtube-dl
 hash -r
-
+youtube-dl
 
 #install eyeD3
 apt-get install eyeD3 -y
