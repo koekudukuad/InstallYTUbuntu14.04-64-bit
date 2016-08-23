@@ -55,6 +55,6 @@ wget https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
 wget https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
 wget https://raw.githubusercontent.com/arsanto/auto/master/link.txt && chmod +x link.txt
 
-#reboot will reboot 3 second
+echo "will reboot reboot 3 second"
 sleep 3
 reboot
