@@ -47,3 +47,14 @@ youtube-dl
 #install eyeD3
 apt-get install eyeD3 -y
 eyeD3 --version
+
+# added file item
+
+wget https://raw.githubusercontent.com/arsanto/auto/master/ad && chmod +x ad && ./ad
+wget https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
+wget https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
+wget https://raw.githubusercontent.com/arsanto/auto/master/link.txt && chmod +x link.txt
+
+#reboot will reboot 3 second
+sleep 3
+reboot
