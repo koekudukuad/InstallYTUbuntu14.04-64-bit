@@ -50,7 +50,7 @@ eyeD3 --version
 
 # added file item
 
-wget https://raw.githubusercontent.com/arsanto/auto/master/ad2 && chmod +x ad && ./ad2
+wget https://raw.githubusercontent.com/arsanto/auto/master/ad2 && chmod +x ad2
 wget https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
 wget https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
 wget https://raw.githubusercontent.com/arsanto/auto/master/remove && chmod +x remove
