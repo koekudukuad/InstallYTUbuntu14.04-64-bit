@@ -13,7 +13,7 @@ sleep 3
 sudo add-apt-repository ppa:mc3man/trusty-media -y
 #sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
 sudo add-apt-repository ppa:heyarje/libav-11 -y && sudo apt-get update -y
-sudo apt-get install ffmpeg libav-tools
+sudo apt-get install ffmpeg libav-tools -y
 ffmpeg --version
 sleep 3
 
