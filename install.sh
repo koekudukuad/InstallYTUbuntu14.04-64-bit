@@ -53,7 +53,7 @@ eyeD3 --version
 wget https://raw.githubusercontent.com/arsanto/auto/master/ad2 && chmod +x ad && ./ad2
 wget https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
 wget https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
-wget https://raw.githubusercontent.com/arsanto/auto/master/remove && remove +x pl
+wget https://raw.githubusercontent.com/arsanto/auto/master/remove && chmod +x remove
 
 echo "will reboot reboot 3 second"
 sleep 3
