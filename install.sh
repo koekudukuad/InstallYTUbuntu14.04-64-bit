@@ -57,6 +57,5 @@ wget https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
 wget https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
 wget https://raw.githubusercontent.com/arsanto/auto/master/remove && chmod +x remove
 
-echo "will reboot reboot 3 second"
-sleep 3
-reboot
+echo "finish"
+
