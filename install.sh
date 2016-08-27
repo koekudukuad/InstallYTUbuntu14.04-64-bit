@@ -15,6 +15,7 @@ sudo apt-get update -y
 sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
 #sudo add-apt-repository ppa:heyarje/libav-11 -y && 
 #sudo apt-get install ffmpeg -y
+sudo apt-get install libav-tools -y
 ffmpeg 
 sleep 3
 
