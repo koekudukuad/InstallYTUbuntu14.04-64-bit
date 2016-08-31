@@ -11,22 +11,23 @@ apt-get install software-properties-common -y
 echo "install ffmpeg"
 sleep 3
 sudo add-apt-repository ppa:mc3man/trusty-media -y
-sudo apt-get update -y
+#sudo apt-get update -y
 #sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
-#sudo add-apt-repository ppa:heyarje/libav-11 -y && 
-sudo apt-get install ffmpeg -y
-#sudo apt-get install libav-tools -y
-ffmpeg 
+sudo add-apt-repository ppa:heyarje/libav-11 -y
+sudo apt-get update -y
+#sudo apt-get install ffmpeg -y
+sudo apt-get install libav-tools -y
+avconv
 sleep 3
 
 
 ##tambahan test##
 
-sudo apt-get install yasm -y
-sudo apt-get install libx264-dev -y
-sudo apt-get install cmake mercurial -y
-sudo apt-get install libmp3lame-dev -y
-sudo apt-get install libopus-dev -y
+#sudo apt-get install yasm -y
+#sudo apt-get install libx264-dev -y
+#sudo apt-get install cmake mercurial -y
+#sudo apt-get install libmp3lame-dev -y
+#sudo apt-get install libopus-dev -y
 
 
 ##tambahan test##
@@ -39,6 +40,7 @@ sudo apt-get install libopus-dev -y
 
 apt-get install nano -y
 apt-get install screen -y
+apt-get install mplayer -y
 
 
 # youtube-upload
