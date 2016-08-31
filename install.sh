@@ -37,7 +37,7 @@ sudo apt-get install libopus-dev -y
 
 
 
-
+apt-get install nano -y
 apt-get install screen -y
 
 
