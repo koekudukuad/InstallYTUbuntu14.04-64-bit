@@ -21,26 +21,11 @@ avconv
 sleep 3
 
 
-##tambahan test##
-
-#sudo apt-get install yasm -y
-#sudo apt-get install libx264-dev -y
-#sudo apt-get install cmake mercurial -y
-#sudo apt-get install libmp3lame-dev -y
-#sudo apt-get install libopus-dev -y
-
-
-##tambahan test##
-
-
-
-
-
 
 
 apt-get install nano -y
 apt-get install screen -y
-apt-get install mplayer -y
+apt-get install sox libsox-fmt-all lame -y
 
 
 # youtube-upload
