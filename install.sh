@@ -3,6 +3,7 @@
 echo "Get the dependencies"
 sleep 3
 apt-get update -y
+apt-get upgrade -y
 apt-get install sudo -y
 apt-get install software-properties-common -y
 
@@ -15,7 +16,8 @@ sudo add-apt-repository ppa:mc3man/trusty-media -y
 #sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
 sudo add-apt-repository ppa:heyarje/libav-11 -y
 sudo apt-get update -y
-#sudo apt-get install ffmpeg -y
+apt-get upgrade -y
+sudo apt-get install ffmpeg -y
 sudo apt-get install libav-tools -y
 avconv
 sleep 3
