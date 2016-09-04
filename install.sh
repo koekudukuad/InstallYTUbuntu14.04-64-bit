@@ -60,10 +60,10 @@ eyeD3 --version
 
 # added file item
 
-wget https://raw.githubusercontent.com/arsanto/auto/master/ad2 && chmod +x ad2
-wget https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
-wget https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
-wget https://raw.githubusercontent.com/arsanto/auto/master/remove && chmod +x remove
+wget --no-check-certificate https://raw.githubusercontent.com/arsanto/auto/master/ad2 && chmod +x ad2
+wget --no-check-certificate https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
+wget --no-check-certificate https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
+wget --no-check-certificate https://raw.githubusercontent.com/arsanto/auto/master/remove && chmod +x remove
 
 echo "finish"
 
