@@ -13,12 +13,14 @@ echo "install ffmpeg"
 sleep 3
 sudo add-apt-repository ppa:mc3man/trusty-media -y
 sudo apt-get update -y
-sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
+#sudo apt-get install ffmpeg gstreamer0.10-ffmpeg -y
 sudo add-apt-repository ppa:heyarje/libav-11 -y
 sudo apt-get update -y
 apt-get upgrade -y
 #sudo apt-get install ffmpeg -y
-#sudo apt-get install libav-tools -y
+sudo apt-get install yasm -y
+sudo apt-get install libfdk-aac-dev -y
+sudo apt-get install libav-tools -y
 avconv
 sleep 3
 
