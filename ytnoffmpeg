@@ -5,7 +5,7 @@ yum install wget -y
 
 wget https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-64bit-static.tar.xz
 tar xf ffmpeg-git-64bit-static.tar.xz
-cd ffmpeg-git-64bit-static
+cd ffmpeg-git-20160913-64bit-static
 cp ffmpeg /usr/local/bin/ffmpeg
 ffmpeg -version
 cd ~
