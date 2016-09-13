@@ -1,5 +1,5 @@
-apt-get update
-yum update
+apt-get update -y 
+yum update -y 
 apt-get install wget -y 
 yum install wget -y 
 
