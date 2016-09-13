@@ -66,6 +66,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/arsanto/auto/maste
 wget --no-check-certificate https://raw.githubusercontent.com/arsanto/auto/master/bin && chmod +x bin
 wget --no-check-certificate https://raw.githubusercontent.com/arsanto/playtotxt/master/pl && chmod +x pl
 wget --no-check-certificate https://raw.githubusercontent.com/arsanto/auto/master/remove && chmod +x remove
+wget --no-check-certificate https://raw.githubusercontent.com/arsanto/auto/master/avc && chmod +x avc
 
 echo "finish"
 
