@@ -15,6 +15,7 @@ cd ffmpeg-*
 cp ffmpeg /usr/local/bin/
 cp ffprobe /usr/local/bin/
 ffmpeg -version
+sleep 3
 cd ~
 
 echo "youtube-upload"
