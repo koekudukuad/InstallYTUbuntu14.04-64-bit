@@ -31,12 +31,12 @@ sleep 3
 #unzip master.zip
 #cd youtube-upload-master
 #python setup.py install
-#cd ~
-echo $(hostname -I | cut -d\  -f1) $(hostname) | sudo tee -a /etc/hosts
-sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
-sudo pip install --upgrade youtube_dl
-pip install --upgrade pip
+sudo pip install --upgrade google-api-python-client progressbar2
+wget https://github.com/tokland/youtube-upload/archive/master.zip
+unzip master.zip
+cd youtube-upload-master
+sudo python setup.py install
+cd ~
 youtube-upload
 sleep 3
 
