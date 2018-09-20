@@ -4,7 +4,7 @@ apt-get update -y
 #yum update -y 
 #yum upgrade -y
 
-apt-get install wget zip unzip libsox-fmt-all -y 
+apt-get install wget zip unzip libsox-fmt-all imagemagick -y 
 #yum install wget zip unzip -y 
 
 sleep 3
