@@ -27,12 +27,11 @@ sleep 3
 apt-get install python-pip -y 
 yum install python-pip -y 
 wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py -O - | python
-easy_install --upgrade google-api-python-client
+easy_install --upgrade google-api-python-client oauth2client progressbar2
 wget https://github.com/tokland/youtube-upload/archive/master.zip
 unzip master.zip
 cd youtube-upload-master
 python setup.py install
-pip install --upgrade google-api-python-client oauth2client progressbar2
 cd ~
 youtube-upload
 sleep 3
