@@ -12,7 +12,7 @@ sleep 3
 wget https://raw.githubusercontent.com/arsanto/InstallYTUbuntu14.04-64-bit/master/.client_secrets.json
 wget https://www.johnvansickle.com/ffmpeg/old-releases/ffmpeg-4.0.3-64bit-static.tar.xz
 tar xf ffmpeg-4.0.3-64bit-static.tar.xz
-cd ffmpeg-*
+cd ffmpeg-4.0.3-64bit-static
 cp ffmpeg /usr/local/bin/
 cp ffprobe /usr/local/bin/
 ffmpeg -version
